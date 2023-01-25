@@ -111,3 +111,13 @@ elif (grade >= 50 and grade < 60):
     print("The grade of student is D")
 else:
     print("The grade of student is F")
+
+
+# Write a program to find out whether a gievn post is talking about "Rithik" or not.
+
+inputString = input("Enter a String:")
+
+if ("Rithik".lower() in inputString.lower()):
+    print("Rithik".lower(), "is present in the", inputString)
+else:
+    print("Rithik".lower(), "is not present in the", inputString)
